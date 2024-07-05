@@ -9,7 +9,7 @@ body{
     color: #ffff;
 }
 #header{
-    width: 50%;
+    width: 100%;
     height: 100vh;
     background-image: url(images/Max.jpg);
     background-size: cover;
@@ -60,4 +60,7 @@ nav ul li a:hover::after{
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
+}
+.header-text h1 span{
+    color: #FFEC00;
 }
