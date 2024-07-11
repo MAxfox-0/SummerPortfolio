@@ -10,7 +10,7 @@
 <div id="header">
     <div class="container"></div>
         <nav>
-            <img src="images/THGP.png" class="logo" alt="THGP logo">
+            <img src="images/logo black and white.avif" class="logo" alt="THGP logo">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -30,7 +30,7 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="images/max02.jpg">
+                <img src="images/IMG_1959.jpg">
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title"><span>About me</span></h1>
@@ -78,20 +78,68 @@
 <!-- ------------------services------------------ -->
 <script>
     var tablinks = document.getElementsByClassName("tab-links");
-    var tablinks = document.getElementsByClassName("tab-contents");
-    
-    function opentab(tabname){
-        for(tablink of tablinks){
+    var tabcontents = document.getElementsByClassName("tab-contents");
+     
+    function opentab(tabName){
+
+        for(tablink of tablinks)
+        {
             tablink.classList.remove("active-link");
         }
-        for(tabcontent of tabcontents){
+
+        for(tabcontent of tabcontents)
+        {
             tabcontent.classList.remove("active-tab");
         }
-        event.currentTarget.classList.add("active-link")
-        document.getElementById(tabname).classList.add("active-tab");
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
     }   
 
 </script>
+<!-- ------------------portfolio------------------ -->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title"><span>My Work</span></h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/leftSide PC.jpg" style="width: 400px; height: 550px;">
+                <div class="layer">
+                    <h3>PC</h3>
+                    <p>This took me about 12h to make put together and then two days pf truble shoting to get Widows 11 downloded and fully working
+                    </p>
+                    <p>PC Specs:</p>
+                    <p><span>4080 super FE</span></p>
+                    <p><span>AMD ryzen 7800x3D</span></p>
+                    <p><span>Noctua NH-L9A</span></p>
+                    <p><span>Asus ROG B650E-I</span></p>
+                    <p><span>Formd T1</span></p>
+                    <div class="PC Parts"></div>
+                    <p>Monitor:</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/RightSide PC .jpg" style="width: 400px; height: 550px;">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p><span?></span></p>
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Top PC.jpg" style="width: 400px; height: 550px;">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p><span></span></p>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 </body>
 </html>
