@@ -72,6 +72,9 @@ nav ul li a:hover::after{
     padding: 61px 0;
     color: #fff;
 }
+.about-col-2 span{
+    font-size: 17px;
+}
 .row{
     display: flex;
     justify-content: space-between;
@@ -102,6 +105,7 @@ nav ul li a:hover::after{
 }
 .tab-titles p span{
     color: #fff;
+    font-size: 20px;
 }
 .tab-links{
     margin-right: 50px;
@@ -249,7 +253,7 @@ nav ul li a:hover::after{
     border-radius: 6px;
 }
 /* -- ------------------contact------------------ */
-.contect-right span{
+.contact-right span{
     color: #fff;
 }
 .contact-left{
@@ -285,9 +289,6 @@ nav ul li a:hover::after{
     display: inline-block;
     background-color: #2254FF;
 }
-.contect-right span{
-    color: #fff;
-}
 .contact-right, form{ 
     width: 100%;
 }
@@ -305,6 +306,12 @@ form input, form textarea{
 .social-icons span{
     color: #fff;
 }
+#msg{
+    color: #fff;
+    margin-top: -40px;
+    display: block;
+    font-size: 20px;
+}
 /* -- ------------------copyright------------------ */
 .copyright{
     width: 100%;
@@ -314,38 +321,7 @@ form input, form textarea{
     font-weight: 300;
     margin-top: 20px;
 }
-/* -- ------------------css for smal screens------------------ */
-nav .fas{
-    display: none;
-}
 
-@media only screan and (max-width: 600px){
-    #header{
-        background-image: url(images/neon_phone.jpg);
-    }
-
-        .header text{
-            margin-top: 100%;
-            font-size: 16px;
-    }
-
-        .header-text h1{
-            font-size: 30px;
-        
-    }
-        nav .fas{
-            display: none;
-    }
-        nav ul{
-            background: #2254FF;
-            position: fixed;
-            top: 0;
-            right: -200px;
-            width: 200px;
-            height: 100vh;
-            padding-top: 50px;
-            z-index: 2;
-    }
         nav ul{
             display: block;
             margin: 25px;
@@ -354,6 +330,4 @@ nav .fas{
         position: absolute;
         top: 25px;
         left: 25px;
-        cursor: pointer;
     }
-}
